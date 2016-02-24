@@ -52,11 +52,11 @@ Steps to follow in setting integration test.
  
  8. Update the Prodpad properties file at location "<PRODPAD_CONNECTOR_HOME>/src/test/resources/artifacts/ESB/connector/config" as below.
 	
-	i)		apiUrl 							- 	The API URL of Prodpad(e.g. https://api.prodpad.com).
+	i)	apiUrl 							- 	The API URL of Prodpad(e.g. https://api.prodpad.com).
 	ii) 	apiKey							-   Use the API  token obtained under step 6 ii).
 	iii)	title							-   A String value for the idea title to create an Idea.
-	iv)		comment							-	A String value for the idea comment.
-	v)		userStory						-	A String value for the user story to create an User Story.
+	iv)	comment							-	A String value for the idea comment.
+	v)	userStory						-	A String value for the user story to create an User Story.
 
  9. Navigate to "<PRODPAD_CONNECTOR_HOME>/" and run the following command.
       $ mvn clean install
