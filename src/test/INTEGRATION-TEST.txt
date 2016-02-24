@@ -24,7 +24,7 @@ Steps to follow in setting integration test.
 
 	i)  "<PRODPAD_CONNECTOR_HOME>/src/test/resources/keystores/products"
 
-		Navigate to the above location from command prompt and execute 'keytool -importcert -file CERT_FILE_NAME -keystore wso2carbon.jks -alias "prodpad"' in command line to import prodpad certificate in to keystore. Give "wso2carbon" as password.
+		Navigate to the above location from command prompt and execute 'keytool -importcert -file CERT_FILE_NAME -keystore   wso2carbon.jks -alias "prodpad"' in command line to import prodpad certificate in to keystore. Give "wso2carbon" as password.
 		NOTE : CERT_FILE_NAME is the file name which was extracted from prodpad with  the extension, change it accordingly. Remove the copied certificate.
 	
 	ii) "<ESB_HOME>/repository/resources/security"
@@ -47,7 +47,7 @@ Steps to follow in setting integration test.
 	
  7. Prerequisites for Prodpad Connector Integration Testing
 
-	i) 	Navigate to "DASHBOARD -> USER PERSONAS", create atleast one user persona.
+	i) Navigate to "DASHBOARD -> USER PERSONAS", create atleast one user persona.
 	ii) Navigate to "DASHBOARD -> USER PRODUCTS", create product line and atleast one product.
  
  8. Update the Prodpad properties file at location "<PRODPAD_CONNECTOR_HOME>/src/test/resources/artifacts/ESB/connector/config" as below.
