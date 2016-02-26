@@ -1,4 +1,4 @@
-# esb-connector-prodpad
+### ProdPad ESB Connector
 The ProdPad connector allows you to access the ProdPad REST API through WSO2 ESB. ProdPad is a Product Management Software for your whole team. It allows you to capture ideas from your team, flesh them out into product specs that your development team can use, and then put it on a road map that shows where you are now and where you are going in the future.
 
 ###Build
