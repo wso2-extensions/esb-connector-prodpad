@@ -48,7 +48,7 @@ public class ProdpadConnectorIntegrationTest extends ConnectorIntegrationTestBas
     @BeforeClass(alwaysRun = true)
     public void setEnvironment() throws Exception {
     
-        init("prodpad-connector-1.0.0");
+        init("prodpad-connector-1.0.1-SNAPSHOT");
         
         esbRequestHeadersMap = new HashMap<String, String>();
         
