@@ -14,5 +14,5 @@
    "productIds" : [%s(productId)],
    "personaIds" : [%s(personaId)],
    "tagIds" : [%s(tags)],
-   "statusId": "%s(ideaStatus)"
+   "statusId": "%s(statusId)"
 }

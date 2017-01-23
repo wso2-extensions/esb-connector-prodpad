@@ -1,4 +1,5 @@
 {
-	"status_id":"INVALID",
-   "idea_id" : "%s(ideaId)"
+   "status_id":"%s(statusId)",
+   "idea_id" : "%s(ideaId)",
+   "user_id" : ""
 }
