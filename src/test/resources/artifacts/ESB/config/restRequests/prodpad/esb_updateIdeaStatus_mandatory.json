@@ -1,6 +1,7 @@
 {
   "apiUrl": "%s(apiUrl)",
   "apiKey": "%s(apiKey)",
+  "userId": "%s(userId)",
   "ideaId": "%s(ideaId)",
   "statusId": "%s(statusId)"
 }

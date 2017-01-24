@@ -130,7 +130,7 @@
          }
          if (statusId != null && statusId != "") {
             payload.status = {};
-            payload.status.id = statusId;            
+            payload.status.id = statusId;
          }
          if (externalLinks != null && externalLinks != "") {
             payload.external_links = eval("("+externalLinks+")");
